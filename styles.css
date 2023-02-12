@@ -113,17 +113,50 @@ body {
   font-size: 15px;
 }
 
-.topbar .navbar .login {
+button {
   border-radius: 45px;
   font-size: 15px;
   font-weight: bold;
   padding: 16px 33px;
   border: none;
+  cursor: pointer;
 }
 
-.topbar .navbar .login:hover,
-.topbar .navbar .login:active,
-.topbar .navbar .login:focus {
+button:hover,
+button:active,
+button:focus {
   background-color: #e8e8e8;
   font-size: 16px;
+}
+
+.preview {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 9px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview h6 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 11.5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.preview p {
+  color: white;
+  font-size: 14.5px;
+  padding-top: 6px;
+  margin-bottom: 3px;
+}
+
+.coding-mode {
+  color: white;
 }
