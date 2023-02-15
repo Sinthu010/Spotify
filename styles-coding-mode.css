@@ -1,0 +1,37 @@
+.coding-mode {
+  color: white;
+  position: fixed;
+  font-size: 45px;
+  top: 120px;
+  right: 300px;
+}
+
+.coding-mode .text-playlist {
+  font-size: 12px;
+}
+
+.coding-mode .text-dedication {
+  font-size: 13px;
+  padding-top: 21px;
+  opacity: 0.5;
+}
+
+.description p {
+  display: inline;
+  font-size: 13px;
+  text-decoration: dotted;
+  margin-top: 5px;
+  top: 120px;
+  right: 300px;
+}
+.description img {
+  width: 20px;
+}
+
+.text-playlist-length {
+  opacity: 0.5;
+}
+
+.coding-mode .playlist-image img {
+  width: 30px;
+}
